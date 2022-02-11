@@ -1,0 +1,28 @@
+{
+    "some_count": 3,
+    "fruits": [
+        "apple",
+        "banana",
+        "apple",
+        "banana",
+        "apple",
+        "banana",
+        "apple",
+        "banana",
+        "apple",
+        "banana",
+        "apple",
+        "banana",
+        "apple",
+        "banana",
+        "apple",
+        "banana",
+        "apple",
+        "banana",
+        "apple",
+        "banana"
+    ],
+    "price": {
+        "a": "b"
+    }
+}

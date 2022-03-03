@@ -60,16 +60,12 @@ driver.refresh()
 
 
 Mongo_host = "localhost"
-Mongo_port = 27017
+Mongo_port = "27017"
 db_name = "VK"
 collection_name = "posts"
 
 
 def add_new(data_post):
-    """
-    Функция принимает список словарей, но может принять и один словарь, если нужно.
-    Возвращает 1, если запись новая и была добавлена в базу
-    """
     with MongoClient(Mongo_host, Mongo_port) as client:
         db = client[db_name]
         collection = db[collection_name]
